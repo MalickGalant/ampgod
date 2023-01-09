@@ -9,7 +9,7 @@ and alternatives, see [issue
 \#126](https://github.com/ampproject/ampbench/issues/126).
 
 There are no plans to remove the source code from its canonical location at
-<https://github.com/ampproject/ampbench,> but if it is important to you, we
+<https://github.com/MalickGalant/ampgod,> but if it is important to you, we
 recommend making a copy.
 
 ### Guides
@@ -22,7 +22,7 @@ AMPBench is a web application and service that validates AMP URLs + their associ
 
 During AMP URL validation, it builds referable, support-friendly sharable URLs such as the following:
 
-- [https://ampbench.appspot.com/validate?url=https://ampbyexample.com/](https://ampbench.appspot.com/validate?url=https://ampbyexample.com/)
+- [https://ampbench.appspot.com/validate?url=https://ampgod.vercel.app/](https://ampbench.appspot.com/validate?url=https://ampgod.vercel.app/)
 
 ![AMPBench in action](/SCREENSHOT.png?raw=true)
 
@@ -40,10 +40,10 @@ Install the [Node.js](https://nodejs.org) [Active LTS version](https://github.co
 
 Now do the following from a terminal command-line session:
     
-    $ git clone https://github.com/ampproject/ampbench.git
+    $ git clone https://github.com/MalickGalant/ampgod.git
     $ cd ampbench
     $ npm install
-    $ node ampbench_main.js
+    $ node ampgod_main.js
     
 Also try navigating to these links from your web browser:
 
