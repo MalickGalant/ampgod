@@ -49,16 +49,16 @@ Also try navigating to these links from your web browser:
 
 - [http://localhost:8080/](http://localhost:8080/)
 - [http://localhost:8080/version/](http://localhost:8080/version/)
-- [http://localhost:8080/validate?url=https://ampbyexample.com/](http://localhost:8080/validate?url=https://ampbyexample.com/)
-- [http://localhost:8080/api?url=https://ampbyexample.com/](http://localhost:8080/api?url=https://ampbyexample.com/)
+- [http://localhost:8080/validate?url=https://ampgod.vercel.app/](http://localhost:8080/validate?url=https://ampgod.vercel.app/)
+- [http://localhost:8080/api?url=https://ampgod.vercel.app/](http://localhost:8080/api?url=https://ampgod.vercel.app)
 
 Even try this from the command-line:
 
     $ curl http://localhost:8080/version/
-    $ curl http://localhost:8080/raw?url=https://ampbyexample.com/
-    $ curl http://localhost:8080/api?url=https://ampbyexample.com/
-    $ curl http://localhost:8080/api1?url=https://ampbyexample.com/
-    $ curl http://localhost:8080/api2?url=https://ampbyexample.com/
+    $ curl http://localhost:8080/raw?url=https://ampgod.vercel.app/
+    $ curl http://localhost:8080/api?url=https://ampgod.vercel.app/
+    $ curl http://localhost:8080/api1?url=https://ampgod.vercel.app/
+    $ curl http://localhost:8080/api2?url=https://ampgod.vercel.app/
 
 #### Utilities
 
@@ -68,19 +68,19 @@ The `/debug...` commands attempt to follow fetch requests and display relevant r
 
 Use these as follows in the browser:
 
-- [https://ampbench.appspot.com/debug?url=https://ampbyexample.com](https://ampbench.appspot.com/debug?url=https://ampbyexample.com)
+- [https://ampbench.appspot.com/debug?url=https://ampgod.vercel.app](https://ampbench.appspot.com/debug?url=https://ampgod.vercel.app)
 
 and:
 
-- [https://ampbench.appspot.com/debug_curl?url=https://ampbyexample.com](https://ampbench.appspot.com/debug_curl?url=https://ampbyexample.com)
+- [https://ampbench.appspot.com/debug_curl?url=https://ampgod.vercel.app](https://ampbench.appspot.com/debug_curl?url=https://ampgod.vercel.app)
 
 Or, with the command-line compatible `_cli` equivalents, in a terminal session:
 
-    $ curl https://ampbench.appspot.com/debug_cli?url=https://ampbyexample.com
+    $ curl https://ampbench.appspot.com/debug_cli?url=https://ampgod.vercel.app
 
 and:
 
-    $ curl https://ampbench.appspot.com/debug_curl_cli?url=https://ampbyexample.com
+    $ curl https://ampbench.appspot.com/debug_curl_cli?url=https://ampgod.vercel.app
 
 The `/debug` and `/debug_cli` versions use a smartphone HTTP User Agent. The `/debug_curl` and `/debug_curl_cli` variants use the `curl` (desktop and server-side) User Agent. 
 
@@ -88,11 +88,11 @@ The applied User Agent is reported in the output and can be seen in the resultin
 
 For `/debug...`:
 
-    {"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2725.0 Mobile Safari/537.36","host":"ampbyexample.com"}
+    {"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2725.0 Mobile Safari/537.36","host":"ampgod.vercel.app"}
 
 and for `/debug_curl...`:
 
-    {"User-Agent":"curl/7.43.0","host":"ampbyexample.com"}
+    {"User-Agent":"curl/7.43.0","host":"ampgod.vercel.app"}
 
 
 ### Deploying AMPBench to the Cloud
